@@ -1,0 +1,31 @@
+<?php
+/**
+ * Config class.
+ *
+ * @copyright   Takeru Hirose <takeru0757@gmail.com>
+ * @license     MIT License (http://opensource.org/licenses/MIT)
+ */
+
+/**
+ * Config class.
+ *
+ */
+class CONFIG {
+
+    /**
+     * API Key for Asana
+     *
+     * @link http://developer.asana.com/documentation/#api_keys
+     * @var string
+     */
+    const ASANA_API_KEY = 'YOUR-API-KEY-HERE';
+
+    /**
+     * The Asana workspace ID
+     *
+     * @link http://developer.asana.com/documentation/#workspaces
+     * @var string
+     */
+    const ASANA_WORKSPACE_ID = 'YOUR-WORKSPACE-ID-HERE';
+
+}
